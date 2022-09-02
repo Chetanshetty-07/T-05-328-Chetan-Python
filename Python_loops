@@ -1,0 +1,53 @@
+'''
+LOOPS
+
+Python offers 3 choices for running the loops. The basic functionality of all the techniques is the same,
+although the syntax and the amount of time required for checking the condition differ.
+We can run a single statement or set of statements repeatedly using a loop command.
+
+The following sorts of loops are available in the Python programming language.
+1.For Loop
+2.While Loop
+
+
+1.For Loop
+The for loop in Python is used to iterate over a sequence, which could be a list, tuple, array, or string.
+
+
+Syntax:
+for iterator_variable in sequence_name:
+	Statements
+	. . .
+	Statements
+
+Example: languages = ["Aventodor", "Chiron", "Evoque", "Ghost"]
+         for language in languages:
+              print(language)
+
+          Output:Aventodor
+                 Chiron
+                 Evoque
+                 Ghost
+
+2.While loop
+Repeats a statement or group of statements while a given condition is TRUE.
+It tests the condition before executing the loop body.
+
+Syntax:
+while conditional_expression:
+    Code block of while
+
+The given condition, i.e., conditional_expression, is evaluated initially in the Python while loop.
+Then, if the conditional expression gives a boolean value True, the while loop statements are executed.
+The conditional expression is verified again when the complete code block is executed.
+This procedure repeatedly occurs until the conditional expression returns the boolean value False.
+
+Example:
+    num =0
+    while num < 5:
+    num = num + 1
+    print('num = ', num)
+
+
+
+'''
